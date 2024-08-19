@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/volunteer_org_sample"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_weight="40"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/NAME_VOLUNTEER_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Dummy"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/volunteer_organi_sample_desc"
+        android:layout_width="345dp"
+        android:layout_height="222dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/card_border1"
+        android:padding="15dp"
+        android:text="Dummy description"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/volunteer_categories"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="VOLUNTEERING CATEGORIES "
+        android:textSize="17sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="400dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="179dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp">
+
+            <ImageView
+                android:id="@+id/volunteer_org_categories1"
+                android:layout_width="179dp"
+                android:layout_height="match_parent"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            >
+
+            <ImageView
+                android:id="@+id/volunteer_org_categories2"
+                android:layout_width="179dp"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</LinearLayout>

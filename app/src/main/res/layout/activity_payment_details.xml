@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentDetails"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/half_bg_volunteer"
+        android:layout_width="320dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_bg">
+
+        <TextView
+            android:id="@+id/paymentDetailsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="PAYMENT DETAILS"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/payment_details_cardpics" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/nameOnCardHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Name on Card"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/nameOnCard"
+            android:layout_width="219dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:hint="Ben Barnes"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/cardNumberOnCardHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Card Number"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/cardNumber"
+            android:layout_width="228dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_bg"
+            android:hint="1234-156848"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/validThroughHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Valid Through"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cvvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:text="CVV"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+       >
+
+        <EditText
+            android:id="@+id/validThrough"
+            android:layout_width="113dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:hint="1/7/2027"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:hint="1234"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/amountheading"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="29dp"-->
+        <!--            android:layout_marginTop="29dp"-->
+        <!--            android:text="Amount Donated:"-->
+        <!--            android:textColor="@color/dark_green"-->
+        <!--            android:textSize="17sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <FrameLayout-->
+        <!--            android:layout_width="220dp"-->
+        <!--            android:layout_height="35dp"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:background="@drawable/rounded_bg">-->
+
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/amount_donatedbyUser"-->
+        <!--                android:layout_width="74dp"-->
+        <!--                android:layout_height="48dp"-->
+        <!--                android:layout_marginStart="20dp"-->
+        <!--                android:text="500"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="18sp" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/currency"-->
+        <!--                android:layout_width="38dp"-->
+        <!--                android:layout_height="58dp"-->
+        <!--                android:layout_marginStart="65dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginEnd="17sp"-->
+        <!--                android:text="AED"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="17sp" />-->
+
+        <!--        </FrameLayout>-->
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/proceedNowBtn"
+        android:layout_marginTop="28dp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:text="PROCEED NOW"
+        android:onClick="proceednow_payment_details_Clicked"
+        android:background="@drawable/proceed_now_btn"
+        />
+
+</LinearLayout>

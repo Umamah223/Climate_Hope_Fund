@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:layout_marginEnd="2dp"
+    android:background="@drawable/plant_a_tree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plant_a_tree"
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/card_rounded_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/donation_org_img"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/name_donation_org"
+            android:layout_width="235dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_favourite_Donations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/selector_wishlist_item"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <TextView
+                android:id="@+id/donation_info"
+                android:layout_width="245dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/know_more_donation_org"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="25dp"
+                android:text="-->"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

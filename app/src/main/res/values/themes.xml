@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ClimateHopeFund_trial1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColor">@color/dark_green</item>
+    </style>
+
+    <style name="Theme.ClimateHopeFund_trial1" parent="Base.Theme.ClimateHopeFund_trial1" />
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ClimateHopeFund</string>
+    <string name="menu_open">Drawer Open</string>
+    <string name="menu_close">Drawer Close</string>
+
+    <string name="text_eeg">At the <b>Emirates Environmental Group </b>, we believe in the power of action to create a <b>sustainable future </b>. Make a difference by contributing to <i><b>Donate to Plant a Tree</b></i> where your generosity
+        can help us reach our goal of planting thousands of <b>trees</b>. Your contributions help in fostering a greener planet.
+        every donation counts, with contributions up to <b>50,000 dirhams</b>.</string>
+
+    <string name="aboutUsInfo"> Welcome to <i><b>ClimateHope Fund </b></i> a pioneering project dedicated to fighting <b> climate change and promoting sustainability.</b>
+    With strong connections to renowned organizations, our app facilitates both donations and volunteering opportunities. Your contributions, whether through donations or volunteering, directly fuel our collective mission.
+    Partnering with esteemed organizations amplifies the impact of every action you take. Join us today in the fight for a more sustainable tomorrow, where ClimateHope Fund serves as your ally in building a
+    resilient and thriving planet. Together, let\'s pave the way for a
+    future where the echoes of our efforts resonate for generations to come. Join us in advocating for a greener, more resilient future together.
+</string>
+
+    <string name="educ1"> <b>Climate change</b> refers to long-term alterations in the Earth\s climate patterns, primarily driven by human activities such as the <b> burning of fossil fuels</b> and  <b>deforestation </b>. The increase in greenhouse gas emissions, particularly carbon dioxide,
+        traps heat in the atmosphere, leading to a rise in global temperatures. This warming contributes to various environmental impacts, including more frequent and severe weather events, rising sea levels,
+             and disruptions to ecosystems.
+        Climate change poses significant threats to biodiversity, human health, and socio-economic stability, <b> Donating to climate change </b>efforts helps fund crucial initiatives aimed at mitigating environmental threats fostering <b>sustainable</b> practices and safeguarding the planet.</string>
+
+    <string name="effects_climate_ch">Climate change manifests in a range of severe effects, including rising global temperatures, leading to more frequent and intense heatwaves. Melting ice caps and glaciers contribute to rising sea levels, threatening coastal communities and low-lying areas. Extreme weather events, such as hurricanes, floods, and droughts, become more frequent and unpredictable, impacting agriculture, water resources, and infrastructure. Ocean acidification, a result of increased carbon dioxide absorption, poses a threat to marine ecosystems and fisheries. Shifts in ecosystems and biodiversity loss occur as species struggle to adapt to changing conditions. These interconnected effects highlight the urgent need for
+        global efforts to mitigate climate change and promote sustainable practices.</string>
+
+    <style name="SemiBoldInter">
+        <item name="android:fontFamily">@fonts/Inter-SemiBold.ttf</item>
+    </style>
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">-->
+    <!--        <item name="android:background">@color/dark_grey</item>-->
+
+    <!--        &lt;!&ndash; Customize the hint text color &ndash;&gt;-->
+    <!--        <item name="android:queryHint">@color/black</item>-->
+
+    <!--        &lt;!&ndash; Customize the search icon color &ndash;&gt;-->
+    <!--        <item name="searchIcon">@color/white</item>-->
+
+    <!--    </style>-->
+
+</resources>

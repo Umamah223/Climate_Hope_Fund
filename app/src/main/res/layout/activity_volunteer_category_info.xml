@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolunteerCategoryInfo"
+    android:orientation="vertical"
+    android:background="@drawable/rainforest_management_activity2"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green">
+
+        <TextView
+            android:id="@+id/volunteer_category_title"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Category Title"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/volunteer_category_description"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Description"
+        android:textSize="17sp" />
+
+    <FrameLayout
+        android:layout_width="249dp"
+        android:layout_height="138dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/volunteer_category_location"
+            android:layout_width="249dp"
+            android:layout_height="138dp"
+            android:gravity="center"
+            android:text="Location :"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/volunteer_now_btn"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_style"
+        android:text="VOLUNTEER NOW"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+</LinearLayout>

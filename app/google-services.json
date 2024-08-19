@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96444626107",
+    "firebase_url": "https://climatehopefund-trial1-default-rtdb.firebaseio.com",
+    "project_id": "climatehopefund-trial1",
+    "storage_bucket": "climatehopefund-trial1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96444626107:android:4f375ad31a35875086e59e",
+        "android_client_info": {
+          "package_name": "com.example.climatehopefund_trial1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96444626107-lcjmn2a2qvg1qgusbsn3pjive52fotub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.climatehopefund_trial1",
+            "certificate_hash": "cd4f69a84e11e0c5f545b6635ea6af923eb55bca"
+          }
+        },
+        {
+          "client_id": "96444626107-g73cvkjqfnpj6fut8equalkoa09hmics.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9rc4lVZKspBWKsVcECxBFWt0vkq3pGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96444626107-g73cvkjqfnpj6fut8equalkoa09hmics.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationalSection1"
+    android:background="@drawable/climate_edu1"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_bg">
+
+        <TextView
+            android:id="@+id/climate_ch_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="What is Climate Change?"
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="359dp"
+        android:layout_height="461dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/grey">
+
+        <TextView
+            android:id="@+id/tv_titleEducation1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/educ1"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+/>
+
+    </FrameLayout>
+
+</LinearLayout>

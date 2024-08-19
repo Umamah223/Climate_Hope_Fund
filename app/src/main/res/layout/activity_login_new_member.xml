@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="740dp"
+    tools:context=".login_NewMember"
+    android:orientation="vertical"
+    android:background="@color/white">
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="334dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_btn">
+
+            <TextView
+                android:id="@+id/new_member_login_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="New Member Registration"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </FrameLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="313dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/dark_green">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/new_member_username"
+            android:layout_width="313dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/dark_green">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/donor_email"
+            android:layout_width="313dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="Donor Email"
+            android:inputType="textWebEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:startIconDrawable="@drawable/baseline_drive_file_rename_outline_24"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/dark_green"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/donor_name"
+            android:layout_width="313dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="Donor Name"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="7"
+            app:prefixText="+971"
+            app:startIconDrawable="@drawable/baseline_add_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_number"
+                android:layout_width="313dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:hint="Phone Number"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <View-->
+<!--        android:layout_width="313dp"-->
+<!--        android:layout_height="8dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/login_btn"-->
+<!--        />-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="29dp"-->
+<!--            app:startIconDrawable="@drawable/baseline_airplanemode_active_24">-->
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textinputLayoutPassword"
+        android:layout_width="313dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_enhanced_encryption_24"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/dark_green"
+        app:counterEnabled="true"
+        app:counterMaxLength="11"
+        app:helperText="Enter 11 digit password "
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/dark_green"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/new_member_password"
+            android:layout_width="313dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <View-->
+<!--            android:layout_width="313dp"-->
+<!--            android:layout_height="8dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/login_btn"-->
+<!--            />-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirm_PassInput_Layout"
+        android:layout_width="313dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_enhanced_encryption_24"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/dark_green"
+        app:counterEnabled="true"
+        app:counterMaxLength="11"
+        app:errorEnabled="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/new_member_confirm_password"
+            android:layout_width="313dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:hint=" Confirm Password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/new_member_clear_btn"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/login_btn"
+                android:gravity="center"
+                android:text="Clear"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/new_member_register_btn"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/login_btn"
+                android:gravity="center"
+                android:onClick="registerBtnClicked"
+                android:text="Register"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="318dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_bg">
+
+            <TextView
+                android:id="@+id/googleSignin"
+                android:layout_width="318dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sign In with Google"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/googleSignInImg"
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/google_image"></ImageView>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

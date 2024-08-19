@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:orientation="vertical"
+    android:background="@color/dark_green">
+
+    <FrameLayout
+        android:layout_width="432dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-11dp"
+        android:background="@color/very_dark_green">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:src="@drawable/donation_box_activity2"
+            android:scaleType="centerCrop"/>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_rounded_bg"
+        />
+
+        <TextView
+            android:id="@+id/about_us_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="349dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/dark_grey">
+
+        <TextView
+            android:id="@+id/about_us_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineHeight="22dp"
+            android:padding="5dp"
+            android:text="@string/aboutUsInfo"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/card_rounded_bg"
+        />
+
+</LinearLayout>

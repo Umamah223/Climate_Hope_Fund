@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/baseline_home_24"
+    android:title="Home"/>
+
+    <item
+        android:id="@+id/donation_catalogue"
+        android:icon="@drawable/baseline_volunteer_activism_24"
+        android:title="Donate Now"/>
+
+    <item
+        android:id="@+id/volunteer_catalogue"
+        android:icon="@drawable/baseline_assist_walker_24"
+        android:title="Volunteer"/>
+
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/baseline_info_24"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/educational"
+        android:icon="@drawable/baseline_cast_for_education_24"
+        android:title="Educational"/>
+
+    <item
+        android:id="@+id/contact_us"
+        android:icon="@drawable/baseline_call_24"
+        android:title="Contact Us"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/preferred_items"
+        android:icon="@drawable/baseline_checklist_24"
+        android:title="Preferred Donations"/>
+
+</group>
+</menu>
